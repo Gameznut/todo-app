@@ -1,0 +1,20 @@
+    <!-- <div class="card_container">
+      <div
+        class="card"
+        :class="[{ done: todo.done }, ``]"
+        v-for="todo in todos"
+        :key="todo.id"
+      >
+        <div>
+          <small>{{ todo.date }}</small>
+        </div>
+
+        <div>
+          <label :for="todo.text">
+            {{ todo.text }}
+          </label>
+          <input type="checkbox" :id="todo.text" v-model="todo.done" />
+        </div>
+        <button @click="deleteTodo(todo.id)">delete</button>
+      </div>
+    </div> -->
